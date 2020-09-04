@@ -1,0 +1,43 @@
+
+Bu döküman Programlama Laboratuvarı – II dersinin 2. projesi(Veri Sıkıştırma) için hazırlanmıştır.
+
+180201019				180201030
+
+Taha Yıldız				Ahmet Furkan Kaşıkçı
+
+
+***Programın çalışma adımları :
+	
+	**Lz77 için 1 , deflate için 2, programın sonlaması için 3 rakamı girilmelidir.
+		
+		*1 rakamı girildikten sonra "kaynak.txt" içindeki metin lz77 algoritmasın göre sıkıştırılacaktır.
+			
+			-Lz77 algoritmasına göre sıkıştırılan metin "lz77.txt" içerisine binary olarak yazdırılacaktır.
+			
+			-Lz77 algortiması çalışırken konsola çıktı vermektedir.
+		
+		*2 rakamı girildikten sonra "kaynak.txt" içindeki metin önce huffman algoritmasına göre sonrasında lz77 algoritmasına göre 2 kere sıkıştılacaktır.
+			
+			-Huffman algoritmasına göre sıkıştırılan metin "trash.txt" içerisine binary olarak yazdırılacaktır.
+
+			-"trash.txt" içerisine yazdırılan binary lz77 algoritması tarafından okunarak lz77 algoritmasına göre 2. kez sıkıştırılır.
+			
+			-2. kez sıkıştırılan metin "deflate.txt" içerisine binary olarak yazdırılır.
+
+
+
+
+
+***NOTLAR:
+	**
+	*1_exe_180201019_180201030.zip içerisinde exe dosyasi ve kaynak.txt bulunmaktadir. Zip dosyasindan çıkartarak çift tıklama ile açabilirsiniz.
+	
+	*exe dosyasi proje dosyalarinin içerisinde mevcuttur. Çift tıklayarak çalıştırabilirsiniz.(exe ve kaynak.txt aynı klasörde bulunmalıdır)
+	
+	*Sıkıştırılacak metin "kaynak.txt" dosyasının içine atılmalı veya sıkıştırılacak metin dosyasının ismi "kaynak.txt" olmalıdır.
+
+	*"kaynak.txt" nin en son satırı boş bırakılmalıdır.
+
+	*"kaynak.txt" içerisindeki metinde Türkçe karakter olmamalıdır.
+
+	*Yer kaplamaması ve karşılastırmanın daha hızlı yapılabilmesi için kod içerisinde "trash.txt" yi siliyoruz.

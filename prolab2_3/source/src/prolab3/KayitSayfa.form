@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="label1" max="32767" attributes="0"/>
+                  <Component id="label2" max="32767" attributes="0"/>
+                  <Component id="label3" max="32767" attributes="0"/>
+                  <Component id="label4" pref="106" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jTextField_isim" alignment="0" min="-2" pref="329" max="-2" attributes="0"/>
+                  <Component id="jPasswordField_parola" min="-2" pref="329" max="-2" attributes="0"/>
+                  <Component id="jTextField_email" min="-2" pref="329" max="-2" attributes="0"/>
+                  <Component id="jTextField_dogumTarihi" alignment="0" min="-2" pref="329" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="belgesel" min="-2" pref="146" max="-2" attributes="0"/>
+                  <Component id="anime" min="-2" pref="146" max="-2" attributes="0"/>
+                  <Component id="bilimKurgu" min="-2" pref="146" max="-2" attributes="0"/>
+                  <Component id="aksiyon" min="-2" pref="146" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="drama" alignment="0" min="-2" pref="146" max="-2" attributes="0"/>
+                  <Component id="cocukAile" alignment="0" min="-2" pref="146" max="-2" attributes="0"/>
+                  <Component id="fantastik" alignment="0" min="-2" pref="146" max="-2" attributes="0"/>
+                  <Component id="bililmDoga" alignment="0" min="-2" pref="146" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="korku" alignment="0" min="-2" pref="146" max="-2" attributes="0"/>
+                  <Component id="macera" alignment="0" min="-2" pref="146" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="komedi" alignment="0" min="-2" pref="146" max="-2" attributes="0"/>
+                          <Component id="gerilim" alignment="0" min="-2" pref="146" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="romantik" min="-2" pref="146" max="-2" attributes="0"/>
+                          <Component id="reality" min="-2" pref="146" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="149" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="335" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jButton_kayit" min="-2" pref="111" max="-2" attributes="0"/>
+                  <Component id="jButton_Giris" min="-2" pref="125" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="440" max="32767" attributes="0"/>
+              <Component id="jLayeredPane1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="aksiyon" min="-2" pref="29" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="anime" min="-2" pref="29" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="belgesel" min="-2" pref="29" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                              <Component id="bilimKurgu" min="-2" pref="29" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jTextField_isim" pref="42" max="32767" attributes="0"/>
+                                  <Component id="label1" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="label2" max="32767" attributes="0"/>
+                                  <Component id="jTextField_email" pref="42" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jPasswordField_parola" min="-2" pref="42" max="-2" attributes="0"/>
+                                  <Component id="label3" pref="50" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="bililmDoga" min="-2" pref="29" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="cocukAile" min="-2" pref="29" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="drama" min="-2" pref="29" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="fantastik" min="-2" pref="29" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="gerilim" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="reality" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="komedi" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="romantik" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="korku" min="-2" pref="29" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="macera" min="-2" pref="29" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="label4" max="32767" attributes="0"/>
+                  <Component id="jTextField_dogumTarihi" pref="42" max="32767" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="jButton_kayit" min="-2" pref="53" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jButton_Giris" min="-2" pref="34" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                      <Component id="jLayeredPane1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="400" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="jTextField_email">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField_emailActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField_isim">
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton_kayit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kayit Ol"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_kayitActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton_Giris">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Giris Yap"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_GirisActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JPasswordField" name="jPasswordField_parola">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jPasswordField_parolaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField_dogumTarihi">
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="aksiyon">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Aksiyon"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="bilimKurgu">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bilim Kurgu"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="anime">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Anime"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="belgesel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Belgesel"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="bililmDoga">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bilim ve Do&#x11f;a"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="cocukAile">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xc7;ocuk ve Aile"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="drama">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Drama"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="fantastik">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fantastik Yap&#x131;mlar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="macera">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Macera"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="korku">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Korku"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="komedi">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Komedi"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="gerilim">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Gerilim"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="romantik">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Romantik"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="reality">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Reality Program"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JLayeredPane" name="jLayeredPane1">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_LayoutCodePre" type="java.lang.String" value="jLayeredPane1.setVisible(false);"/>
+      </AuxValues>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane2" pref="801" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="334" max="-2" attributes="0"/>
+                          <Component id="label5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="label6" min="-2" pref="490" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Component id="label5" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane2" min="-2" pref="182" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="label6" min="-2" pref="59" max="-2" attributes="0"/>
+                  <EmptySpace pref="57" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="jTable_hepsi">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="5" rowCount="0">
+                    <Column editable="false" title="Program ID" type="java.lang.Object"/>
+                    <Column editable="false" title="Program Adi" type="java.lang.String"/>
+                    <Column editable="false" title="Dizi/Film" type="java.lang.String"/>
+                    <Column editable="false" title="T&#xfc;r&#xfc;" type="java.lang.String"/>
+                    <Column editable="false" title="Sezon/S&#xfc;re" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="0">
+                    <Column maxWidth="70" minWidth="70" prefWidth="1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="170" minWidth="170" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="80" minWidth="80" prefWidth="1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="330" minWidth="330" prefWidth="110" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                  </TableColumnModel>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="java.awt.Label" name="label5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ONERILENLER"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="label6">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="10" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="NOT: Film/dizi &apos; lerin sahip olduklar&#x131; t&#xfc;r miktar&#x131;ndan dolay&#x131; ayn&#x131; film/dizi birka&#xe7; kere yaz&#x131;yor."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="java.awt.Label" name="label1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="isim:"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="email:"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="parola"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="dogum tarihi:"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

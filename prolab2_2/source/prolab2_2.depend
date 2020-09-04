@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1589462331 source:c:\users\taha\desktop\codeneme\prolab2_2\huffman.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1589567228 source:c:\users\taha\desktop\codeneme\prolab2_2\lz77.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+
+1589567450 source:c:\users\taha\desktop\codeneme\prolab2_2\main.c
+	<stdio.h>
+
